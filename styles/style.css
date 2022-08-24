@@ -1,0 +1,59 @@
+/*? START GLOBAL RULES*/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+}
+body {
+    margin: 0;
+    background: linear-gradient( rgba(12,119,136,1),  rgba(8,163,187,1),rgba(117,229,247,1)   );
+    height: 100%;
+}
+/*eND GLOBAL RULES*/
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: rgba(255,255,255,.3);
+    box-shadow: 0 15px 25px rgba(255,255,255,.3);
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.container h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.user-box {
+    position: relative;
+}
+.user-box input {
+    width: 100%;
+    color: white;
+    border: none;
+    background-color: transparent;
+    padding: 10px 0px;
+    border-bottom: 1px solid #666;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-weight: 500;
+}
+
+submit-button {
+
+}
