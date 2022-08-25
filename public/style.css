@@ -170,3 +170,24 @@ body {
     }
 }
 /*TODO End Animation */
+
+/*start nav */
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: teal;
+
+}
+.log-btn,logout-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    background: transparent;
+    text-decoration: none;
+
+}
+/*end nav*/

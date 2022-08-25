@@ -1,13 +1,7 @@
-<html>
-  <head>
-    <title>Login_Form</title>
-    <meta
-      name="description"
-      content="This is a full stack form build by express js"
-    />
-    <link rel="stylesheet" href="../styles/style.css" />
-  </head>
-  <body>
+
+  <%- include('../includes/header.ejs')%>
+
+  <%- include("includes/nav.ejs") %>
     <div class="container">
       <h2>Login</h2>
       <form action="/api/auth/login" method="post">
@@ -29,8 +23,8 @@
       </form>
       <div>
       <p>Don't have account ? </p>
-      <a>Sign up</a>
+      <a href="/signup">Sign up</a>
     </div>
       </div>
-  </body>
-</html>
+  <%- include("../includes/footer.ejs")%>
+
